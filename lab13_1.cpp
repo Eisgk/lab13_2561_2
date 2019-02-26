@@ -17,7 +17,7 @@ void insertionSort(T d[],int N){
 	for(int i = 1; i < N; i++){
 		key = d[i];
 		for(int k = 0; k < N; k++){
-			if (k==1) cout << "[" << d[k] << "]";
+			if (k==i) cout << "[" << d[k] << "]";
 			else cout << d[k] << " ";
 		}
 		j = i-1;			
